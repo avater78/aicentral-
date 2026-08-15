@@ -1,0 +1,6 @@
+{
+  "name": "AICentral",
+  "description": "The World's Best AI Tools Ecosystem & Directory. Discover, compare, build workflows, generate AI stacks, explore prompts, and manage AI tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

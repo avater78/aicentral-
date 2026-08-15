@@ -80,12 +80,12 @@ export const CategorySection: React.FC<CategorySectionProps> = ({
   const visibleCategories = showAllCategories ? categories : categories.slice(0, 12);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="w-full max-w-7xl mx-auto px-2.5 sm:px-6 lg:px-8 py-4 sm:py-6">
       
       {/* Categories Bar */}
       <div className="mb-6">
         {/* Categories Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2.5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-2.5">
           <button
             onClick={() => handleCategorySelect('All')}
             className={`p-3 rounded-2xl border text-left transition-all ${

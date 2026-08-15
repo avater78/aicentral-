@@ -203,7 +203,7 @@ export function App() {
   );
 
   return (
-    <div className={`relative min-h-screen font-sans transition-colors duration-300 ${darkMode ? 'bg-slate-950 text-slate-100' : 'bg-slate-50 text-slate-900'}`}>
+    <div className={`relative min-h-screen w-full max-w-full overflow-x-hidden font-sans transition-colors duration-300 ${darkMode ? 'bg-slate-950 text-slate-100' : 'bg-slate-50 text-slate-900'}`}>
       
       {/* Fullsite Slowly Moving Animated Particle Background */}
       <GlobalParticleBackground darkMode={darkMode} />
@@ -233,7 +233,7 @@ export function App() {
       />
 
       {/* MAIN CONTENT VIEWS */}
-      <main className="pb-20 md:pb-8">
+      <main className="w-full max-w-full overflow-x-hidden pb-20 md:pb-8">
         {activeTab === 'discover' && (
           <div>
             {/* Hero Banner */}
